@@ -16,7 +16,7 @@ php artisan migrate
 
 php artisan test --filter="Shift(Access|Query)Test"
 
-php artisan db:seed
+php artisan migrate:fresh --seed
 
 php artisan serve
 
